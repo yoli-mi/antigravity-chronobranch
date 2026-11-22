@@ -1,0 +1,7 @@
+node_modules/
+.tmp-ui/
+*.log
+.DS_Store
+Thumbs.db
+# Keep dist/server.mjs and dist/app.html committed for zero-build git-clone install into Antigravity!
+dist/*.map

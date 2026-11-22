@@ -1,0 +1,46 @@
+{
+  "name": "antigravity-chronobranch",
+  "version": "0.1.0",
+  "description": "ChronoBranch Timeline for Antigravity: interactive horizontal dot-and-line conversation timeline & branching canvas with subagent swimlanes, workspace conversation linking, execution micro-axes, cherry-pick merge, floating & frameless Windows desktop magnetic tiles, and bilingual (zh/en) + dark/light theme sync.",
+  "author": "yoli-mi",
+  "homepage": "https://github.com/yoli-mi/antigravity-chronobranch#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoli-mi/antigravity-chronobranch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yoli-mi/antigravity-chronobranch/issues"
+  },
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "install:antigravity": "pnpm run build && node scripts/install.mjs",
+    "uninstall:antigravity": "node scripts/install.mjs --remove"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/ext-apps": "^2.0.4",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsdown": "^0.22.2",
+    "typescript": "^5.8.3",
+    "zod": "^4.6.7"
+  },
+  "keywords": [
+    "antigravity",
+    "antigravity-plugin",
+    "mcp-app",
+    "mcp",
+    "timeline",
+    "branching",
+    "chronobranch",
+    "ai-agent",
+    "gemini",
+    "visualization"
+  ]
+}

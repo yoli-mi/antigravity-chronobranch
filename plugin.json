@@ -1,0 +1,21 @@
+{
+  "name": "chronobranch",
+  "displayName": "ChronoBranch Timeline",
+  "version": "0.1.0",
+  "description": "Horizontal dot-and-line conversation timeline & branching canvas for Antigravity: inspect subagent swimlanes, fork parallel branches, link workspace conversations, unfold execution micro-axes, cherry-pick merge findings, and pop out magnetic/desktop sticky tiles.",
+  "logo": "assets/logo.svg",
+  "author": {
+    "name": "yoli-mi",
+    "url": "https://github.com/yoli-mi"
+  },
+  "homepage": "https://github.com/yoli-mi/antigravity-chronobranch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoli-mi/antigravity-chronobranch"
+  },
+  "suggestedPrompts": [
+    "Open the ChronoBranch timeline for this conversation",
+    "Show my current conversation and subagents on the ChronoBranch timeline canvas",
+    "Launch ChronoBranch to inspect branches and link workspace conversations"
+  ]
+}

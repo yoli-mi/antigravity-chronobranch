@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "chronobranch": {
+      "command": "node",
+      "args": [
+        "${PLUGIN_ROOT}/dist/server.mjs",
+        "--data-dir=${PLUGIN_DATA}"
+      ]
+    }
+  }
+}
